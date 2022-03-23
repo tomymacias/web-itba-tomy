@@ -1,6 +1,11 @@
-h1{color: red;}
+h2{color: grey;}
 
-h1{color: blue;}
+h1{color: dimgray;}
+
+body {background-image: url(./images/fondo\ web\ 11.jpg.crdownload);background-repeat: no-repeat;background-size: cover;}
+
+*{color: whitesmoke;}
+
 
 /* esto es para comentarios
 *
