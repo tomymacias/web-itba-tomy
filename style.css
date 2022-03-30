@@ -2,14 +2,61 @@ h2{color: grey;}
 
 h1{color: dimgray;}
 
-body {background-image: url(./images/fondo\ web\ 11.jpg.crdownload);background-repeat: no-repeat;background-size: cover;}
+body {background-image: url(./images/fondo\ web\ 11.jpg)}
 
-*{color: whitesmoke;}
-h1{text-align: center;}
+*{color: white;}
+h1{text-align: left;}
+
+#fotoperfil {width: 30%; height: 45%; position:relative; left: 100px;display: none;}
+
+#cajaejemplo{
+    width: 200px;
+    border: 5px solid grey;
+    padding: 30px;
+    margin: 20px;
+  }
+  #icono-contacto{
+      position: fixed ;
+      bottom: 30px;
+      right: 20px;
+  }
 
 
+menu{ 
+    list-style-type: none;
+    
+
+}
+menu > a > li {display: inline;
+;
+}
+
+
+
+#logo-header {
+    width: 5%;
+    ;
+}
+
+footer { 
+    position: fixed;
+    bottom: 0px;
+}
+.col{border: 1px solid white}
+.col-8{border: 1px solid white}
+.btn-primary{background-color: grey; border: grey;}
+table{border:1px solid white;}
+th{border:1px solid white;}
+td{border:1px solid white;}
+
+@media screen and (min-width:480px) {
+    body {
+        background-color: black;
+    }
+    #fotoperfil {display: inline;}
+}
 /* esto es para comentarios
-*
+* ;background-repeat: no-repeat;background-size: cover;
 *
 *
 *
